@@ -1,0 +1,143 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    margin: 0px;
+    position: absolute;
+    font-size: large;
+}
+
+nav {
+    background-color: #D7A1F9;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    padding: 0px;
+}
+
+nav a {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.intro h1{
+    background-color: #D7A1F9;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin: 0px;
+}
+
+.resume h2{
+   background-color: #D7A1F9;
+   text-align: center;
+   padding-bottom: 0px;
+}
+
+/* Home Page */
+
+.showcase1-img img{
+    padding: 50px;
+    /* padding-bottom: 0px; */
+    border-radius: 50%;
+    width: 200px;
+}
+
+.showcase1-description {
+    padding: 50px;
+    padding-top: 0px;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: center;
+}
+
+.showcase2-img img{
+    padding: 50px;
+    border-radius: 55%;
+    width: 200px;
+    /* had to adjust height with this 
+    image to make the circle */
+    height: 200px; 
+}
+
+.showcase2-description {
+    padding: 50px;
+    padding-top: 0px;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: center;
+}
+
+.project-button button{
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #D7A1F9;
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 40%; */
+    transform: translate(-50%,-50%);
+    margin-right: -50%;
+    top: 50%;
+    left: 50%;
+
+}
+
+/* My Projects Page */
+
+/* Biography & Resume Page */
+
+.biography-description {
+    padding: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: center;
+}
+
+.resume {
+    
+}
+
+/* Contact Page */
+
+.contact-info h3{
+    padding: 50px;
+    color: #D7A1F9;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.subscribe-container {
+    background-color: #D7A1F9;
+    color: white;
+    padding: 100px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.submitForm input{
+    background-color: white;
+    color: #D7A1F9;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+
+

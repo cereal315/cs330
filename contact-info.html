@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> CS 330 - Final Project - My Website</title>
+        <meta name="description" content="website to showcase portfolio for CompSci 330"> 
+        <meta charset="utf-8" >
+        <link rel="stylesheet" type="text/css" href="webpage.css"/>
+        <script> src="main.js" </script>
+
+
+    </head>
+    
+    <body>
+        <!-- navigation bar -->
+        <nav role=navigation class="main-navigation"> 
+            <a href="home.html"> HOME </a>
+            <a href="my-projects.html"> MY PROJECTS </a>
+            <a href="biography.html"> BIOGRAPHY & RESUME </a>
+            <a href="contact-info.html"> CONTACT </a>
+        </nav>
+
+        <!-- background picture -->
+        <div class="background-image">
+            <img src="images/nu 2.jpg" alt="NU campus at dusk">
+        </div>
+        
+
+        <!-- subscription form -->
+        <div id="form-error-msg"> </div>
+
+        <div class="subscribe-container">
+            <h1> Subscribe to Sarah's newsletter</h1>
+            <form name=subForm onsubmit=validateSubForm()>
+                <label for="f-Name"> First Name: </label>
+                <input type="text" id="f-Name"> <br>
+
+
+                <label for="l-Name"> Last Name: </label>
+                <input type="text" id="l-Name"> <br>
+
+                <label for="email"> Email Address: </label>
+                <input type="text" id="email"> <br>
+
+                <label for="phone"> Cell Number: </label>
+                <input type="text" id="phone"> <br>
+
+                <label for="want-messages"> Do you want to recieve text alerts? </label>
+                <input type="checkbox" id="want-messages"> <br>
+                
+                <div class="submitForm"> 
+                    <input type="submit" value= "Subscribe">
+                </div>
+                
+
+            </form>
+
+        </div>
+
+        <div class="contact-info"> 
+            <h3> Email Sarah at sarahbaca2023@u.northwestern.edu <h3>
+        </div>
+
+        
+    </body>
+
+
+
+</html>
